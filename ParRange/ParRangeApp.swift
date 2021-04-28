@@ -11,7 +11,9 @@ import SwiftUI
 struct ParRangeApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            Group {
+                PartyListView()
+            }.background(Color.backgroundColor.ignoresSafeArea())
         }
     }
 }

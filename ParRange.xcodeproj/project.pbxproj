@@ -3,23 +3,51 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D0005C76263717C200E26E14 /* CurrentPartyPopupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0005C75263717C200E26E14 /* CurrentPartyPopupView.swift */; };
+		D0005C792637287E00E26E14 /* CurrentPartyPopupViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0005C782637287E00E26E14 /* CurrentPartyPopupViewModel.swift */; };
 		D00AD549263452B300EDA913 /* ParRangeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D00AD548263452B300EDA913 /* ParRangeApp.swift */; };
-		D00AD54B263452B300EDA913 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D00AD54A263452B300EDA913 /* ContentView.swift */; };
 		D00AD54D263452B500EDA913 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D00AD54C263452B500EDA913 /* Assets.xcassets */; };
-		D00AD550263452B500EDA913 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D00AD54F263452B500EDA913 /* Preview Assets.xcassets */; };
+		D00AD55B2634531D00EDA913 /* Hole.swift in Sources */ = {isa = PBXBuildFile; fileRef = D00AD55A2634531D00EDA913 /* Hole.swift */; };
+		D00AD55E2634560000EDA913 /* Course.swift in Sources */ = {isa = PBXBuildFile; fileRef = D00AD55D2634560000EDA913 /* Course.swift */; };
+		D00AD56326347D0500EDA913 /* PartyListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D00AD56226347D0500EDA913 /* PartyListView.swift */; };
+		D00AD56826347D7100EDA913 /* CurrentPartyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D00AD56726347D7100EDA913 /* CurrentPartyView.swift */; };
+		D0266C70263572C300BA6E8F /* Swinject in Frameworks */ = {isa = PBXBuildFile; productRef = D0266C6F263572C300BA6E8F /* Swinject */; };
+		D0AF5204263573C200F998A0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D0AF5203263573C200F998A0 /* Preview Assets.xcassets */; };
+		D0AF520B2635743F00F998A0 /* ViewProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0AF520A2635743F00F998A0 /* ViewProvider.swift */; };
+		D0AF520E2635745900F998A0 /* GlobalAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0AF520D2635745900F998A0 /* GlobalAssembly.swift */; };
+		D0AF52122635747D00F998A0 /* SwinjectAutoregistration in Frameworks */ = {isa = PBXBuildFile; productRef = D0AF52112635747D00F998A0 /* SwinjectAutoregistration */; };
+		D0AF5216263574B000F998A0 /* ViewProvider+CurrentParty.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0AF5215263574B000F998A0 /* ViewProvider+CurrentParty.swift */; };
+		D0AF521B2635752900F998A0 /* CurrentPartyAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0AF521A2635752900F998A0 /* CurrentPartyAssembly.swift */; };
+		D0AF521E2635758300F998A0 /* CurrentPartyViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0AF521D2635758300F998A0 /* CurrentPartyViewModel.swift */; };
+		D0AF52262636D98000F998A0 /* Popup.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0AF52252636D97F00F998A0 /* Popup.swift */; };
+		D0AF522F263702B400F998A0 /* CurrentHoleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0AF522E263702B400F998A0 /* CurrentHoleView.swift */; };
+		D0AF52342637051200F998A0 /* CustomButtonModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0AF52332637051200F998A0 /* CustomButtonModifier.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D0005C75263717C200E26E14 /* CurrentPartyPopupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrentPartyPopupView.swift; sourceTree = "<group>"; };
+		D0005C782637287E00E26E14 /* CurrentPartyPopupViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrentPartyPopupViewModel.swift; sourceTree = "<group>"; };
 		D00AD545263452B300EDA913 /* ParRange.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ParRange.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D00AD548263452B300EDA913 /* ParRangeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParRangeApp.swift; sourceTree = "<group>"; };
-		D00AD54A263452B300EDA913 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		D00AD54C263452B500EDA913 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		D00AD54F263452B500EDA913 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		D00AD551263452B500EDA913 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D00AD55A2634531D00EDA913 /* Hole.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hole.swift; sourceTree = "<group>"; };
+		D00AD55D2634560000EDA913 /* Course.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Course.swift; sourceTree = "<group>"; };
+		D00AD56226347D0500EDA913 /* PartyListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PartyListView.swift; sourceTree = "<group>"; };
+		D00AD56726347D7100EDA913 /* CurrentPartyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrentPartyView.swift; sourceTree = "<group>"; };
+		D0AF5203263573C200F998A0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D0AF520A2635743F00F998A0 /* ViewProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewProvider.swift; sourceTree = "<group>"; };
+		D0AF520D2635745900F998A0 /* GlobalAssembly.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlobalAssembly.swift; sourceTree = "<group>"; };
+		D0AF5215263574B000F998A0 /* ViewProvider+CurrentParty.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ViewProvider+CurrentParty.swift"; sourceTree = "<group>"; };
+		D0AF521A2635752900F998A0 /* CurrentPartyAssembly.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrentPartyAssembly.swift; sourceTree = "<group>"; };
+		D0AF521D2635758300F998A0 /* CurrentPartyViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrentPartyViewModel.swift; sourceTree = "<group>"; };
+		D0AF52252636D97F00F998A0 /* Popup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Popup.swift; sourceTree = "<group>"; };
+		D0AF522E263702B400F998A0 /* CurrentHoleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrentHoleView.swift; sourceTree = "<group>"; };
+		D0AF52332637051200F998A0 /* CustomButtonModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButtonModifier.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -27,12 +55,23 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D0266C70263572C300BA6E8F /* Swinject in Frameworks */,
+				D0AF52122635747D00F998A0 /* SwinjectAutoregistration in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D0005C7B2637288400E26E14 /* Popup */ = {
+			isa = PBXGroup;
+			children = (
+				D0005C75263717C200E26E14 /* CurrentPartyPopupView.swift */,
+				D0005C782637287E00E26E14 /* CurrentPartyPopupViewModel.swift */,
+			);
+			path = Popup;
+			sourceTree = "<group>";
+		};
 		D00AD53C263452B300EDA913 = {
 			isa = PBXGroup;
 			children = (
@@ -52,21 +91,121 @@
 		D00AD547263452B300EDA913 /* ParRange */ = {
 			isa = PBXGroup;
 			children = (
+				D0266C72263572CF00BA6E8F /* Application */,
+				D0AF52202636D94300F998A0 /* Components */,
+				D00AD56126347CE800EDA913 /* Epics */,
+				D00AD559263452D200EDA913 /* Models */,
 				D00AD548263452B300EDA913 /* ParRangeApp.swift */,
-				D00AD54A263452B300EDA913 /* ContentView.swift */,
-				D00AD54C263452B500EDA913 /* Assets.xcassets */,
-				D00AD551263452B500EDA913 /* Info.plist */,
-				D00AD54E263452B500EDA913 /* Preview Content */,
 			);
 			path = ParRange;
 			sourceTree = "<group>";
 		};
-		D00AD54E263452B500EDA913 /* Preview Content */ = {
+		D00AD559263452D200EDA913 /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				D00AD54F263452B500EDA913 /* Preview Assets.xcassets */,
+				D00AD55A2634531D00EDA913 /* Hole.swift */,
+				D00AD55D2634560000EDA913 /* Course.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		D00AD56026347CD700EDA913 /* PartyList */ = {
+			isa = PBXGroup;
+			children = (
+				D00AD56226347D0500EDA913 /* PartyListView.swift */,
+			);
+			path = PartyList;
+			sourceTree = "<group>";
+		};
+		D00AD56126347CE800EDA913 /* Epics */ = {
+			isa = PBXGroup;
+			children = (
+				D00AD56A26347D7600EDA913 /* CurrentParty */,
+				D00AD56026347CD700EDA913 /* PartyList */,
+			);
+			path = Epics;
+			sourceTree = "<group>";
+		};
+		D00AD56A26347D7600EDA913 /* CurrentParty */ = {
+			isa = PBXGroup;
+			children = (
+				D0AF5228263701E000F998A0 /* Views */,
+				D0AF5214263574A100F998A0 /* #Nav */,
+				D00AD56726347D7100EDA913 /* CurrentPartyView.swift */,
+				D0AF521D2635758300F998A0 /* CurrentPartyViewModel.swift */,
+			);
+			path = CurrentParty;
+			sourceTree = "<group>";
+		};
+		D0266C72263572CF00BA6E8F /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				D0AF52092635742B00F998A0 /* DI */,
+				D0AF5206263573E200F998A0 /* Preview Content */,
+				D00AD54C263452B500EDA913 /* Assets.xcassets */,
+				D00AD551263452B500EDA913 /* Info.plist */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		D0AF5206263573E200F998A0 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				D0AF5203263573C200F998A0 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		D0AF52092635742B00F998A0 /* DI */ = {
+			isa = PBXGroup;
+			children = (
+				D0AF520A2635743F00F998A0 /* ViewProvider.swift */,
+				D0AF520D2635745900F998A0 /* GlobalAssembly.swift */,
+			);
+			path = DI;
+			sourceTree = "<group>";
+		};
+		D0AF5214263574A100F998A0 /* #Nav */ = {
+			isa = PBXGroup;
+			children = (
+				D0AF5215263574B000F998A0 /* ViewProvider+CurrentParty.swift */,
+				D0AF521A2635752900F998A0 /* CurrentPartyAssembly.swift */,
+			);
+			path = "#Nav";
+			sourceTree = "<group>";
+		};
+		D0AF52202636D94300F998A0 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				D0AF5231263704EE00F998A0 /* Modifiers */,
+				D0AF5232263704F400F998A0 /* Views */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		D0AF5228263701E000F998A0 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				D0005C7B2637288400E26E14 /* Popup */,
+				D0AF522E263702B400F998A0 /* CurrentHoleView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		D0AF5231263704EE00F998A0 /* Modifiers */ = {
+			isa = PBXGroup;
+			children = (
+				D0AF52332637051200F998A0 /* CustomButtonModifier.swift */,
+			);
+			path = Modifiers;
+			sourceTree = "<group>";
+		};
+		D0AF5232263704F400F998A0 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				D0AF52252636D97F00F998A0 /* Popup.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -85,6 +224,10 @@
 			dependencies = (
 			);
 			name = ParRange;
+			packageProductDependencies = (
+				D0266C6F263572C300BA6E8F /* Swinject */,
+				D0AF52112635747D00F998A0 /* SwinjectAutoregistration */,
+			);
 			productName = ParRange;
 			productReference = D00AD545263452B300EDA913 /* ParRange.app */;
 			productType = "com.apple.product-type.application";
@@ -112,6 +255,10 @@
 				Base,
 			);
 			mainGroup = D00AD53C263452B300EDA913;
+			packageReferences = (
+				D0266C6E263572C300BA6E8F /* XCRemoteSwiftPackageReference "Swinject" */,
+				D0AF52102635747D00F998A0 /* XCRemoteSwiftPackageReference "SwinjectAutoregistration" */,
+			);
 			productRefGroup = D00AD546263452B300EDA913 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -126,7 +273,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D00AD550263452B500EDA913 /* Preview Assets.xcassets in Resources */,
+				D0AF5204263573C200F998A0 /* Preview Assets.xcassets in Resources */,
 				D00AD54D263452B500EDA913 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -138,7 +285,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D00AD54B263452B300EDA913 /* ContentView.swift in Sources */,
+				D00AD55E2634560000EDA913 /* Course.swift in Sources */,
+				D0AF520B2635743F00F998A0 /* ViewProvider.swift in Sources */,
+				D0AF522F263702B400F998A0 /* CurrentHoleView.swift in Sources */,
+				D0AF520E2635745900F998A0 /* GlobalAssembly.swift in Sources */,
+				D0005C76263717C200E26E14 /* CurrentPartyPopupView.swift in Sources */,
+				D0AF521E2635758300F998A0 /* CurrentPartyViewModel.swift in Sources */,
+				D00AD56826347D7100EDA913 /* CurrentPartyView.swift in Sources */,
+				D0AF52342637051200F998A0 /* CustomButtonModifier.swift in Sources */,
+				D00AD55B2634531D00EDA913 /* Hole.swift in Sources */,
+				D00AD56326347D0500EDA913 /* PartyListView.swift in Sources */,
+				D0AF5216263574B000F998A0 /* ViewProvider+CurrentParty.swift in Sources */,
+				D0AF521B2635752900F998A0 /* CurrentPartyAssembly.swift in Sources */,
+				D0AF52262636D98000F998A0 /* Popup.swift in Sources */,
+				D0005C792637287E00E26E14 /* CurrentPartyPopupViewModel.swift in Sources */,
 				D00AD549263452B300EDA913 /* ParRangeApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -268,16 +428,16 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_ASSET_PATHS = "\"ParRange/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"ParRange/Application/Preview Content\"";
 				DEVELOPMENT_TEAM = 94FLWD5X32;
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = ParRange/Info.plist;
+				INFOPLIST_FILE = ParRange/Application/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.maxencemottard.ParRange;
+				PRODUCT_BUNDLE_IDENTIFIER = com.maxencemottard.parrange;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -290,16 +450,16 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_ASSET_PATHS = "\"ParRange/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"ParRange/Application/Preview Content\"";
 				DEVELOPMENT_TEAM = 94FLWD5X32;
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = ParRange/Info.plist;
+				INFOPLIST_FILE = ParRange/Application/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.maxencemottard.ParRange;
+				PRODUCT_BUNDLE_IDENTIFIER = com.maxencemottard.parrange;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -328,6 +488,38 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		D0266C6E263572C300BA6E8F /* XCRemoteSwiftPackageReference "Swinject" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Swinject/Swinject.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.7.1;
+			};
+		};
+		D0AF52102635747D00F998A0 /* XCRemoteSwiftPackageReference "SwinjectAutoregistration" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Swinject/SwinjectAutoregistration";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.7.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		D0266C6F263572C300BA6E8F /* Swinject */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D0266C6E263572C300BA6E8F /* XCRemoteSwiftPackageReference "Swinject" */;
+			productName = Swinject;
+		};
+		D0AF52112635747D00F998A0 /* SwinjectAutoregistration */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D0AF52102635747D00F998A0 /* XCRemoteSwiftPackageReference "SwinjectAutoregistration" */;
+			productName = SwinjectAutoregistration;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = D00AD53D263452B300EDA913 /* Project object */;
 }
