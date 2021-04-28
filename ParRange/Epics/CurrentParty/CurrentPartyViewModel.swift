@@ -9,11 +9,8 @@ import Foundation
 import SwiftUI
 
 final class CurrentPartyViewModel: ObservableObject {
-    var popupIsOpen: Bool = false {
-        didSet {
-            objectWillChange.send()
-        }
-    }
+    @Published var popupIsOpen: Bool = false
+    @Published var state: State = .notStarted
     
     var course: Course! {
         didSet {
@@ -22,17 +19,11 @@ final class CurrentPartyViewModel: ObservableObject {
     }
     private(set) var currentHole: Hole!
     
-    var state: State = .notStarted {
-        didSet {
-            objectWillChange.send()
-        }
-    }
-    
     func setup(course: Course) {
         self.course = course
     }
     
-    func nextHole() {
+    private func nextHole() {
         guard currentHole.holeNumber != course.type.rawValue else {
             course.holes.append(currentHole)
             state = .ended

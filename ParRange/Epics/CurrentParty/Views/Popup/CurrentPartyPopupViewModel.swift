@@ -8,24 +8,12 @@
 import SwiftUI
 
 final class CurrentPartyPopupViewModel: ObservableObject {
+    @Published var state: State!
+    @Published var pickerParValue: Hole.Par = Hole.Par.four
+    @Published var pickerScoreValue: Int = 0
+
     var hole: Hole!
     var handleValidate: ((Hole.Par, Int) -> ())!
-    var state: State! {
-        didSet {
-            objectWillChange.send()
-        }
-    }
-
-    var pickerParValue: Hole.Par = Hole.Par.four {
-        didSet {
-            objectWillChange.send()
-        }
-    }
-    var pickerScoreValue: Int = 0 {
-        didSet {
-            objectWillChange.send()
-        }
-    }
     
     func setup(hole: Hole, handleValidate: @escaping (Hole.Par, Int) -> ()) {
         self.hole = hole
