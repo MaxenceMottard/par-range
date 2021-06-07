@@ -6,14 +6,29 @@
 //
 
 import SwiftUI
+import NetFox
 
 @main
 struct ParRangeApp: App {
+    @UIApplicationDelegateAdaptor(AppDelegate.self) var appDelegate
+
     var body: some Scene {
         WindowGroup {
             Group {
-                PartyListView()
+                NavigationView {
+                    ViewProvider.partyList()
+                }
             }.background(Color.backgroundColor.ignoresSafeArea())
         }
+    }
+}
+
+class AppDelegate: NSObject, UIApplicationDelegate {
+    func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey : Any]? = nil) -> Bool {
+        #if DEBUG
+        NFX.sharedInstance().start()
+        #endif
+
+        return true
     }
 }

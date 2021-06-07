@@ -8,13 +8,20 @@
 import SwiftUI
 
 struct PartyListView: View {
+    @ObservedObject var viewModel: PartyListViewModel
+    
     var body: some View {
-        ViewProvider.CurrentParty.home(course: Course(type: .nine))
+        VStack {
+            Text("Commented")
+            NavigationLink(destination: ViewProvider.NewParty.home(), label: {
+                Image(systemName: "plus")
+            })
+        }
     }
 }
 
-struct PArtyListView_Previews: PreviewProvider {
+struct PartyListView_Previews: PreviewProvider {
     static var previews: some View {
-        PartyListView()
+        ViewProvider.partyList()
     }
 }

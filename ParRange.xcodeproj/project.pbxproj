@@ -9,6 +9,15 @@
 /* Begin PBXBuildFile section */
 		D0005C76263717C200E26E14 /* CurrentPartyPopupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0005C75263717C200E26E14 /* CurrentPartyPopupView.swift */; };
 		D0005C792637287E00E26E14 /* CurrentPartyPopupViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0005C782637287E00E26E14 /* CurrentPartyPopupViewModel.swift */; };
+		D00384BD2641E80E00A1CA30 /* Weakable.swift in Sources */ = {isa = PBXBuildFile; fileRef = D00384BC2641E80E00A1CA30 /* Weakable.swift */; };
+		D00384C02641ED8D00A1CA30 /* PartyListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D00384BF2641ED8D00A1CA30 /* PartyListViewModel.swift */; };
+		D00384C22641EDF700A1CA30 /* ViewProvider+PartyList.swift in Sources */ = {isa = PBXBuildFile; fileRef = D00384C12641EDF700A1CA30 /* ViewProvider+PartyList.swift */; };
+		D00384C42641EE3C00A1CA30 /* PartyListAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = D00384C32641EE3C00A1CA30 /* PartyListAssembly.swift */; };
+		D00384C62642672400A1CA30 /* Routing.swift in Sources */ = {isa = PBXBuildFile; fileRef = D00384C52642672400A1CA30 /* Routing.swift */; };
+		D00384C82642B94500A1CA30 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D00384C72642B94500A1CA30 /* ViewModel.swift */; };
+		D00384CD2643B44200A1CA30 /* QuichesCore in Frameworks */ = {isa = PBXBuildFile; productRef = D00384CC2643B44200A1CA30 /* QuichesCore */; };
+		D00384CF2643BF1800A1CA30 /* QuichesAppManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D00384CE2643BF1800A1CA30 /* QuichesAppManager.swift */; };
+		D00384D22644092E00A1CA30 /* NetFox in Frameworks */ = {isa = PBXBuildFile; productRef = D00384D12644092E00A1CA30 /* NetFox */; };
 		D00AD549263452B300EDA913 /* ParRangeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D00AD548263452B300EDA913 /* ParRangeApp.swift */; };
 		D00AD54D263452B500EDA913 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D00AD54C263452B500EDA913 /* Assets.xcassets */; };
 		D00AD55B2634531D00EDA913 /* Hole.swift in Sources */ = {isa = PBXBuildFile; fileRef = D00AD55A2634531D00EDA913 /* Hole.swift */; };
@@ -16,6 +25,21 @@
 		D00AD56326347D0500EDA913 /* PartyListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D00AD56226347D0500EDA913 /* PartyListView.swift */; };
 		D00AD56826347D7100EDA913 /* CurrentPartyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D00AD56726347D7100EDA913 /* CurrentPartyView.swift */; };
 		D0266C70263572C300BA6E8F /* Swinject in Frameworks */ = {isa = PBXBuildFile; productRef = D0266C6F263572C300BA6E8F /* Swinject */; };
+		D03D3E9D2641DD5F003AF5AF /* Tee.swift in Sources */ = {isa = PBXBuildFile; fileRef = D03D3E9C2641DD5F003AF5AF /* Tee.swift */; };
+		D03D3E9F2641DE13003AF5AF /* Golf.swift in Sources */ = {isa = PBXBuildFile; fileRef = D03D3E9E2641DE13003AF5AF /* Golf.swift */; };
+		D03D3EA32641DFF0003AF5AF /* RoutingParameters.swift in Sources */ = {isa = PBXBuildFile; fileRef = D03D3EA22641DFF0003AF5AF /* RoutingParameters.swift */; };
+		D03D3EA72641E0C0003AF5AF /* GetGolfsRouting.swift in Sources */ = {isa = PBXBuildFile; fileRef = D03D3EA62641E0BF003AF5AF /* GetGolfsRouting.swift */; };
+		D042E7832644527B00B550F4 /* ViewProvider+NewParty.swift in Sources */ = {isa = PBXBuildFile; fileRef = D042E7822644527B00B550F4 /* ViewProvider+NewParty.swift */; };
+		D042E7852644529000B550F4 /* NewPartyAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = D042E7842644529000B550F4 /* NewPartyAssembly.swift */; };
+		D042E787264452FB00B550F4 /* NewPartyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D042E786264452FB00B550F4 /* NewPartyView.swift */; };
+		D042E7892644532900B550F4 /* NewPartyViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D042E7882644532900B550F4 /* NewPartyViewModel.swift */; };
+		D042E78D264456DB00B550F4 /* NewPartySelectGolfView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D042E78C264456DA00B550F4 /* NewPartySelectGolfView.swift */; };
+		D042E78F264456E300B550F4 /* NewPartySelectGolfViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D042E78E264456E300B550F4 /* NewPartySelectGolfViewModel.swift */; };
+		D042E7952644778300B550F4 /* RemoteImage in Frameworks */ = {isa = PBXBuildFile; productRef = D042E7942644778300B550F4 /* RemoteImage */; };
+		D042E7972645D49D00B550F4 /* GetCourseRouting.swift in Sources */ = {isa = PBXBuildFile; fileRef = D042E7962645D49D00B550F4 /* GetCourseRouting.swift */; };
+		D042E79A2645D6B600B550F4 /* NewPartySelectCourseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D042E7992645D6B600B550F4 /* NewPartySelectCourseView.swift */; };
+		D042E79C2645D6BE00B550F4 /* NewPartySelectCourseViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D042E79B2645D6BE00B550F4 /* NewPartySelectCourseViewModel.swift */; };
+		D042E79E2645D82600B550F4 /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D042E79D2645D82600B550F4 /* LocationManager.swift */; };
 		D0AF5204263573C200F998A0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D0AF5203263573C200F998A0 /* Preview Assets.xcassets */; };
 		D0AF520B2635743F00F998A0 /* ViewProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0AF520A2635743F00F998A0 /* ViewProvider.swift */; };
 		D0AF520E2635745900F998A0 /* GlobalAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0AF520D2635745900F998A0 /* GlobalAssembly.swift */; };
@@ -31,6 +55,13 @@
 /* Begin PBXFileReference section */
 		D0005C75263717C200E26E14 /* CurrentPartyPopupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrentPartyPopupView.swift; sourceTree = "<group>"; };
 		D0005C782637287E00E26E14 /* CurrentPartyPopupViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrentPartyPopupViewModel.swift; sourceTree = "<group>"; };
+		D00384BC2641E80E00A1CA30 /* Weakable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Weakable.swift; sourceTree = "<group>"; };
+		D00384BF2641ED8D00A1CA30 /* PartyListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PartyListViewModel.swift; sourceTree = "<group>"; };
+		D00384C12641EDF700A1CA30 /* ViewProvider+PartyList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ViewProvider+PartyList.swift"; sourceTree = "<group>"; };
+		D00384C32641EE3C00A1CA30 /* PartyListAssembly.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PartyListAssembly.swift; sourceTree = "<group>"; };
+		D00384C52642672400A1CA30 /* Routing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Routing.swift; sourceTree = "<group>"; };
+		D00384C72642B94500A1CA30 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		D00384CE2643BF1800A1CA30 /* QuichesAppManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuichesAppManager.swift; sourceTree = "<group>"; };
 		D00AD545263452B300EDA913 /* ParRange.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ParRange.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D00AD548263452B300EDA913 /* ParRangeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParRangeApp.swift; sourceTree = "<group>"; };
 		D00AD54C263452B500EDA913 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -39,6 +70,20 @@
 		D00AD55D2634560000EDA913 /* Course.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Course.swift; sourceTree = "<group>"; };
 		D00AD56226347D0500EDA913 /* PartyListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PartyListView.swift; sourceTree = "<group>"; };
 		D00AD56726347D7100EDA913 /* CurrentPartyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrentPartyView.swift; sourceTree = "<group>"; };
+		D03D3E9C2641DD5F003AF5AF /* Tee.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tee.swift; sourceTree = "<group>"; };
+		D03D3E9E2641DE13003AF5AF /* Golf.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Golf.swift; sourceTree = "<group>"; };
+		D03D3EA22641DFF0003AF5AF /* RoutingParameters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoutingParameters.swift; sourceTree = "<group>"; };
+		D03D3EA62641E0BF003AF5AF /* GetGolfsRouting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetGolfsRouting.swift; sourceTree = "<group>"; };
+		D042E7822644527B00B550F4 /* ViewProvider+NewParty.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ViewProvider+NewParty.swift"; sourceTree = "<group>"; };
+		D042E7842644529000B550F4 /* NewPartyAssembly.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewPartyAssembly.swift; sourceTree = "<group>"; };
+		D042E786264452FB00B550F4 /* NewPartyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewPartyView.swift; sourceTree = "<group>"; };
+		D042E7882644532900B550F4 /* NewPartyViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewPartyViewModel.swift; sourceTree = "<group>"; };
+		D042E78C264456DA00B550F4 /* NewPartySelectGolfView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewPartySelectGolfView.swift; sourceTree = "<group>"; };
+		D042E78E264456E300B550F4 /* NewPartySelectGolfViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewPartySelectGolfViewModel.swift; sourceTree = "<group>"; };
+		D042E7962645D49D00B550F4 /* GetCourseRouting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetCourseRouting.swift; sourceTree = "<group>"; };
+		D042E7992645D6B600B550F4 /* NewPartySelectCourseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewPartySelectCourseView.swift; sourceTree = "<group>"; };
+		D042E79B2645D6BE00B550F4 /* NewPartySelectCourseViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewPartySelectCourseViewModel.swift; sourceTree = "<group>"; };
+		D042E79D2645D82600B550F4 /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
 		D0AF5203263573C200F998A0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		D0AF520A2635743F00F998A0 /* ViewProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewProvider.swift; sourceTree = "<group>"; };
 		D0AF520D2635745900F998A0 /* GlobalAssembly.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlobalAssembly.swift; sourceTree = "<group>"; };
@@ -56,7 +101,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				D0266C70263572C300BA6E8F /* Swinject in Frameworks */,
+				D042E7952644778300B550F4 /* RemoteImage in Frameworks */,
 				D0AF52122635747D00F998A0 /* SwinjectAutoregistration in Frameworks */,
+				D00384D22644092E00A1CA30 /* NetFox in Frameworks */,
+				D00384CD2643B44200A1CA30 /* QuichesCore in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,6 +118,15 @@
 				D0005C782637287E00E26E14 /* CurrentPartyPopupViewModel.swift */,
 			);
 			path = Popup;
+			sourceTree = "<group>";
+		};
+		D00384BE2641ED7000A1CA30 /* #Nav */ = {
+			isa = PBXGroup;
+			children = (
+				D00384C12641EDF700A1CA30 /* ViewProvider+PartyList.swift */,
+				D00384C32641EE3C00A1CA30 /* PartyListAssembly.swift */,
+			);
+			path = "#Nav";
 			sourceTree = "<group>";
 		};
 		D00AD53C263452B300EDA913 = {
@@ -91,10 +148,12 @@
 		D00AD547263452B300EDA913 /* ParRange */ = {
 			isa = PBXGroup;
 			children = (
+				D03D3EA02641DFD5003AF5AF /* Additions */,
 				D0266C72263572CF00BA6E8F /* Application */,
 				D0AF52202636D94300F998A0 /* Components */,
 				D00AD56126347CE800EDA913 /* Epics */,
 				D00AD559263452D200EDA913 /* Models */,
+				D03D3EA42641E087003AF5AF /* Services */,
 				D00AD548263452B300EDA913 /* ParRangeApp.swift */,
 			);
 			path = ParRange;
@@ -105,6 +164,8 @@
 			children = (
 				D00AD55A2634531D00EDA913 /* Hole.swift */,
 				D00AD55D2634560000EDA913 /* Course.swift */,
+				D03D3E9C2641DD5F003AF5AF /* Tee.swift */,
+				D03D3E9E2641DE13003AF5AF /* Golf.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -112,7 +173,9 @@
 		D00AD56026347CD700EDA913 /* PartyList */ = {
 			isa = PBXGroup;
 			children = (
+				D00384BE2641ED7000A1CA30 /* #Nav */,
 				D00AD56226347D0500EDA913 /* PartyListView.swift */,
+				D00384BF2641ED8D00A1CA30 /* PartyListViewModel.swift */,
 			);
 			path = PartyList;
 			sourceTree = "<group>";
@@ -120,21 +183,22 @@
 		D00AD56126347CE800EDA913 /* Epics */ = {
 			isa = PBXGroup;
 			children = (
-				D00AD56A26347D7600EDA913 /* CurrentParty */,
+				D042E78026442B9800B550F4 /* NewParty */,
 				D00AD56026347CD700EDA913 /* PartyList */,
+				D00AD56A26347D7600EDA913 /* CurrentParty.old */,
 			);
 			path = Epics;
 			sourceTree = "<group>";
 		};
-		D00AD56A26347D7600EDA913 /* CurrentParty */ = {
+		D00AD56A26347D7600EDA913 /* CurrentParty.old */ = {
 			isa = PBXGroup;
 			children = (
-				D0AF5228263701E000F998A0 /* Views */,
 				D0AF5214263574A100F998A0 /* #Nav */,
+				D0AF5228263701E000F998A0 /* Views */,
 				D00AD56726347D7100EDA913 /* CurrentPartyView.swift */,
 				D0AF521D2635758300F998A0 /* CurrentPartyViewModel.swift */,
 			);
-			path = CurrentParty;
+			path = CurrentParty.old;
 			sourceTree = "<group>";
 		};
 		D0266C72263572CF00BA6E8F /* Application */ = {
@@ -144,8 +208,85 @@
 				D0AF5206263573E200F998A0 /* Preview Content */,
 				D00AD54C263452B500EDA913 /* Assets.xcassets */,
 				D00AD551263452B500EDA913 /* Info.plist */,
+				D00384CE2643BF1800A1CA30 /* QuichesAppManager.swift */,
 			);
 			path = Application;
+			sourceTree = "<group>";
+		};
+		D03D3EA02641DFD5003AF5AF /* Additions */ = {
+			isa = PBXGroup;
+			children = (
+				D03D3EA12641DFDF003AF5AF /* Protocols */,
+			);
+			path = Additions;
+			sourceTree = "<group>";
+		};
+		D03D3EA12641DFDF003AF5AF /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				D03D3EA22641DFF0003AF5AF /* RoutingParameters.swift */,
+				D00384BC2641E80E00A1CA30 /* Weakable.swift */,
+				D00384C52642672400A1CA30 /* Routing.swift */,
+				D00384C72642B94500A1CA30 /* ViewModel.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		D03D3EA42641E087003AF5AF /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				D03D3EA52641E093003AF5AF /* WebServices */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		D03D3EA52641E093003AF5AF /* WebServices */ = {
+			isa = PBXGroup;
+			children = (
+				D03D3EA62641E0BF003AF5AF /* GetGolfsRouting.swift */,
+				D042E7962645D49D00B550F4 /* GetCourseRouting.swift */,
+			);
+			path = WebServices;
+			sourceTree = "<group>";
+		};
+		D042E78026442B9800B550F4 /* NewParty */ = {
+			isa = PBXGroup;
+			children = (
+				D042E7812644525B00B550F4 /* #Nav */,
+				D042E7982645D66700B550F4 /* NewPartySelectCourse */,
+				D042E78B264456AA00B550F4 /* NewPartySelectGolf */,
+				D042E786264452FB00B550F4 /* NewPartyView.swift */,
+				D042E7882644532900B550F4 /* NewPartyViewModel.swift */,
+			);
+			path = NewParty;
+			sourceTree = "<group>";
+		};
+		D042E7812644525B00B550F4 /* #Nav */ = {
+			isa = PBXGroup;
+			children = (
+				D042E7822644527B00B550F4 /* ViewProvider+NewParty.swift */,
+				D042E7842644529000B550F4 /* NewPartyAssembly.swift */,
+			);
+			path = "#Nav";
+			sourceTree = "<group>";
+		};
+		D042E78B264456AA00B550F4 /* NewPartySelectGolf */ = {
+			isa = PBXGroup;
+			children = (
+				D042E78C264456DA00B550F4 /* NewPartySelectGolfView.swift */,
+				D042E78E264456E300B550F4 /* NewPartySelectGolfViewModel.swift */,
+				D042E79D2645D82600B550F4 /* LocationManager.swift */,
+			);
+			path = NewPartySelectGolf;
+			sourceTree = "<group>";
+		};
+		D042E7982645D66700B550F4 /* NewPartySelectCourse */ = {
+			isa = PBXGroup;
+			children = (
+				D042E7992645D6B600B550F4 /* NewPartySelectCourseView.swift */,
+				D042E79B2645D6BE00B550F4 /* NewPartySelectCourseViewModel.swift */,
+			);
+			path = NewPartySelectCourse;
 			sourceTree = "<group>";
 		};
 		D0AF5206263573E200F998A0 /* Preview Content */ = {
@@ -227,6 +368,9 @@
 			packageProductDependencies = (
 				D0266C6F263572C300BA6E8F /* Swinject */,
 				D0AF52112635747D00F998A0 /* SwinjectAutoregistration */,
+				D00384CC2643B44200A1CA30 /* QuichesCore */,
+				D00384D12644092E00A1CA30 /* NetFox */,
+				D042E7942644778300B550F4 /* RemoteImage */,
 			);
 			productName = ParRange;
 			productReference = D00AD545263452B300EDA913 /* ParRange.app */;
@@ -258,6 +402,9 @@
 			packageReferences = (
 				D0266C6E263572C300BA6E8F /* XCRemoteSwiftPackageReference "Swinject" */,
 				D0AF52102635747D00F998A0 /* XCRemoteSwiftPackageReference "SwinjectAutoregistration" */,
+				D00384CB2643B44100A1CA30 /* XCRemoteSwiftPackageReference "quiches-ios-sdk" */,
+				D00384D02644092E00A1CA30 /* XCRemoteSwiftPackageReference "netfox" */,
+				D042E7932644778300B550F4 /* XCRemoteSwiftPackageReference "RemoteImage" */,
 			);
 			productRefGroup = D00AD546263452B300EDA913 /* Products */;
 			projectDirPath = "";
@@ -286,19 +433,40 @@
 			buildActionMask = 2147483647;
 			files = (
 				D00AD55E2634560000EDA913 /* Course.swift in Sources */,
+				D042E79C2645D6BE00B550F4 /* NewPartySelectCourseViewModel.swift in Sources */,
+				D00384BD2641E80E00A1CA30 /* Weakable.swift in Sources */,
+				D042E7832644527B00B550F4 /* ViewProvider+NewParty.swift in Sources */,
+				D00384C22641EDF700A1CA30 /* ViewProvider+PartyList.swift in Sources */,
 				D0AF520B2635743F00F998A0 /* ViewProvider.swift in Sources */,
+				D03D3E9D2641DD5F003AF5AF /* Tee.swift in Sources */,
+				D042E787264452FB00B550F4 /* NewPartyView.swift in Sources */,
+				D042E79E2645D82600B550F4 /* LocationManager.swift in Sources */,
+				D042E78D264456DB00B550F4 /* NewPartySelectGolfView.swift in Sources */,
+				D042E7972645D49D00B550F4 /* GetCourseRouting.swift in Sources */,
+				D00384C82642B94500A1CA30 /* ViewModel.swift in Sources */,
 				D0AF522F263702B400F998A0 /* CurrentHoleView.swift in Sources */,
 				D0AF520E2635745900F998A0 /* GlobalAssembly.swift in Sources */,
 				D0005C76263717C200E26E14 /* CurrentPartyPopupView.swift in Sources */,
+				D00384C62642672400A1CA30 /* Routing.swift in Sources */,
+				D042E7852644529000B550F4 /* NewPartyAssembly.swift in Sources */,
+				D03D3EA72641E0C0003AF5AF /* GetGolfsRouting.swift in Sources */,
 				D0AF521E2635758300F998A0 /* CurrentPartyViewModel.swift in Sources */,
 				D00AD56826347D7100EDA913 /* CurrentPartyView.swift in Sources */,
+				D042E7892644532900B550F4 /* NewPartyViewModel.swift in Sources */,
+				D00384CF2643BF1800A1CA30 /* QuichesAppManager.swift in Sources */,
 				D0AF52342637051200F998A0 /* CustomButtonModifier.swift in Sources */,
 				D00AD55B2634531D00EDA913 /* Hole.swift in Sources */,
 				D00AD56326347D0500EDA913 /* PartyListView.swift in Sources */,
 				D0AF5216263574B000F998A0 /* ViewProvider+CurrentParty.swift in Sources */,
 				D0AF521B2635752900F998A0 /* CurrentPartyAssembly.swift in Sources */,
 				D0AF52262636D98000F998A0 /* Popup.swift in Sources */,
+				D03D3EA32641DFF0003AF5AF /* RoutingParameters.swift in Sources */,
+				D00384C42641EE3C00A1CA30 /* PartyListAssembly.swift in Sources */,
 				D0005C792637287E00E26E14 /* CurrentPartyPopupViewModel.swift in Sources */,
+				D03D3E9F2641DE13003AF5AF /* Golf.swift in Sources */,
+				D00384C02641ED8D00A1CA30 /* PartyListViewModel.swift in Sources */,
+				D042E79A2645D6B600B550F4 /* NewPartySelectCourseView.swift in Sources */,
+				D042E78F264456E300B550F4 /* NewPartySelectGolfViewModel.swift in Sources */,
 				D00AD549263452B300EDA913 /* ParRangeApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -490,12 +658,36 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
+		D00384CB2643B44100A1CA30 /* XCRemoteSwiftPackageReference "quiches-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/quiches-group/quiches-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.1.0;
+			};
+		};
+		D00384D02644092E00A1CA30 /* XCRemoteSwiftPackageReference "netfox" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/MaxenceMottard/netfox";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.20.0;
+			};
+		};
 		D0266C6E263572C300BA6E8F /* XCRemoteSwiftPackageReference "Swinject" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/Swinject/Swinject.git";
 			requirement = {
 				kind = upToNextMajorVersion;
 				minimumVersion = 2.7.1;
+			};
+		};
+		D042E7932644778300B550F4 /* XCRemoteSwiftPackageReference "RemoteImage" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/crelies/RemoteImage";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 4.0.0;
 			};
 		};
 		D0AF52102635747D00F998A0 /* XCRemoteSwiftPackageReference "SwinjectAutoregistration" */ = {
@@ -509,10 +701,25 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
+		D00384CC2643B44200A1CA30 /* QuichesCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D00384CB2643B44100A1CA30 /* XCRemoteSwiftPackageReference "quiches-ios-sdk" */;
+			productName = QuichesCore;
+		};
+		D00384D12644092E00A1CA30 /* NetFox */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D00384D02644092E00A1CA30 /* XCRemoteSwiftPackageReference "netfox" */;
+			productName = NetFox;
+		};
 		D0266C6F263572C300BA6E8F /* Swinject */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = D0266C6E263572C300BA6E8F /* XCRemoteSwiftPackageReference "Swinject" */;
 			productName = Swinject;
+		};
+		D042E7942644778300B550F4 /* RemoteImage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D042E7932644778300B550F4 /* XCRemoteSwiftPackageReference "RemoteImage" */;
+			productName = RemoteImage;
 		};
 		D0AF52112635747D00F998A0 /* SwinjectAutoregistration */ = {
 			isa = XCSwiftPackageProductDependency;

@@ -8,10 +8,12 @@
 import SwiftUI
 
 struct CustomButtonModifier: ViewModifier {
+    var color: Color? = nil
+    
     func body(content: Content) -> some View {
         content
             .padding()
-            .background(Color.primaryColor)
+            .background(color ?? Color.primaryColor)
             .foregroundColor(.white)
     }
 }
@@ -30,8 +32,8 @@ extension View {
             .shadow(color: .primaryColor, radius: 6)
     }
     
-    func customCircleButton() -> some View {
-        self.modifier(CustomButtonModifier())
+    func customCircleButton(color: Color? = nil) -> some View {
+        self.modifier(CustomButtonModifier(color: color))
             .clipShape(Circle())
     }
     

@@ -14,6 +14,7 @@ class GlobalAssembly: Assembly {
     }
     
     func registerWebServices(_ container: Container) {
-        
+        container.autoregister(GetGolfsRouting.self, initializer: GetGolfsRouting.init)
+        container.autoregister(GetCourseRouting.self, initializer: GetCourseRouting.init)
     }
 }
